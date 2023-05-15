@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="mainarea">
+      <p id="result"></p>
+      <button id="showbtn">パスワードを生成</button>
+    </div>
+    <fieldset>
+      <legend>オプション</legend>
+      <label for="">長さ（<span id="password-length">8</span>）<input type="range" id="slider" min="8" max="24" value="8"></label>
+      <label for="">数字<input type="checkbox" id="numbersCheckbox"></label>
+      <label for="">記号<input type="checkbox" id="symbolCheckbox"></label>
+    </fieldset>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>

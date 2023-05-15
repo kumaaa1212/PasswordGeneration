@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+.mainarea {
+  display: flex;
+  flex-direction: column;
+}
+.mainarea p{
+  height:40px;
+  border: 1px black solid;
+  line-height: 40px;
+}
+.mainarea button{
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 3px;
+  color: white;
+  background-color: dodgerblue;
+  border: none;
+  cursor: pointer;
+}
+.mainarea button:hover{
+  opacity: 0.8;
+}
+#password-length{
+  text-align: center;
+  width: 20px;
+  display:inline-block;
+}
